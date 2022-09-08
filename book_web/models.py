@@ -3,6 +3,7 @@ from decimal import Decimal
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.utils import timezone
 from django.urls import  reverse
+abd
 
 class Base(models.Model):
     created_date = models.DateTimeField(auto_now_add=True)
